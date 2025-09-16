@@ -13,12 +13,12 @@ $('document').ready(function(){
 
             if ($(window).width() <= 900) {
                 // حالت موبایل → فاصله کمتر
-                $('#b11').animate({top:240, left: vw-180},500);
-                $('#b22').animate({top:240, left: vw-110},500);
-                $('#b33').animate({top:240, left: vw-40},500);
+                $('#b11').animate({top:240, left: vw-210},500);
+                $('#b22').animate({top:240, left: vw-140},500);
+                $('#b33').animate({top:240, left: vw-70},500);
                 $('#b44').animate({top:240, left: vw},500);
-                $('#b55').animate({top:240, left: vw+40},500);
-                $('#b66').animate({top:240, left: vw+110},500);
+                $('#b55').animate({top:240, left: vw+70},500);
+                $('#b66').animate({top:240, left: vw+140},500);
             } else {
                 // حالت دسکتاپ → فاصله عادی
                 $('#b11').animate({top:240, left: vw-300},500);
@@ -207,3 +207,4 @@ $('document').ready(function(){
 
 
 //alert('hello');
+
